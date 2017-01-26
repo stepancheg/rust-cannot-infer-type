@@ -1,15 +1,14 @@
-extern crate env_logger;
+extern crate regex_syntax;
 
-pub struct Payload {
-    pub xxx: ::std::vec::Vec<u8>,
-}
-
-impl Payload {
-    fn compute_size(&self) {
-        if self.xxx != ::std::vec::Vec::new() {
-        };
-    }
-}
+// struct Foo;
+//
+// impl PartialEq<Foo> for u8 {
+//     fn eq(&self, other: &Foo) -> bool {
+//         false
+//     }
+// }
 
 fn main() {
+    let v: Vec<u8> = Vec::new();
+    let b = v == Vec::new();
 }
